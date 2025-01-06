@@ -1,0 +1,84 @@
+Q. Give some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+Data type:
+A data type determines the type of data a variable can hold. 
+JavaScript has two main categories of data types:
+1. Primitive Data Types
+2. Non-Primitive Data Types
+
+1. Primitive Data Types
+Definition: These are basic, predefined data types that store a single value.
+Characteristics:
+-Stored by value.
+-Immutable (cannot be altered after creation, but the variable can be reassigned).
+-Default types provided by JavaScript.
+Examples of Primitive Types:
+
+1.String:
+
+-Stores sequences of characters enclosed in "", '', or backticks (``).
+Ex:
+let name = "John";  
+console.log(typeof name);
+
+2. Number
+
+-Stores all numeric data types (integers, floats, etc.).
+Ex:
+let age = 25; 
+let price = 99.99; 
+console.log(typeof age);
+
+3.Boolean:
+
+-Represents true or false values.
+-Used for conditional statements.
+Ex:
+let isAdmin = true;
+
+4.Undefined:
+
+-A variable that has been declared but not initialized.
+Ex:
+let a;
+console.log(a); 
+console.log(typeof a); 
+
+5.Null:
+
+-Represents the intentional absence of any object value. Often used to reset a variable.
+Ex:
+let b = null;
+console.log(b);
+
+
+2. Non-Primitive Data Types
+Definition: These are complex data types that can store multiple values or complex objects.
+Characteristics:
+-Stored by reference (the variable stores a reference to the memory location where the value is stored).
+-Mutable (values can be changed after creation).
+-User-defined.
+
+Examples of Non-Primitive Types:
+
+1.Array:
+
+-Stores a list of values, accessed by their index.
+Ex:
+let fruits = ["Apple", "Banana", "Cherry"];
+console.log(typeof fruits);
+
+2.Function:
+-A reusable block of code.
+Ex:
+function greet() {
+    return "Hello!";
+}
+console.log(typeof greet);
+
+3.Object:
+-A collection of key-value pairs.
+Ex:
+let person = {
+    name: "Alice",
+    age: 25}
+console.log(typeof person);
