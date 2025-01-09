@@ -13,7 +13,59 @@
 // add1(7,8);
 // add1(3,4);
 
-function addtoCart(){
-    document.body.style.background="teal";
-    alert("Product added to cart1");
+// function addtoCart(){
+//     document.body.style.background="teal";
+//     alert("Product added to cart1");
+// }
+
+function isPalindrome(str){
+    let revStr ="";
+    for (let i =str.length-1;i>0;i--){
+        revStr +=str[i];
+    if(str == revStr){
+        console.log("Palindrome");
+    } 
+    else{
+        console.log("Not a palindrome");
+    }
+    }
 }
+isPalindrome("sir");
+isPalindrome("madam");
+isPalindrome("malayalam");
+
+//! ananymous func
+// function(){
+//     console.log("Ananymous func");
+// }
+
+// let x= function(){
+//     console.log("function expression")
+// }
+// console.log(x);
+// x();
+
+
+//! iife
+// (
+// function(){
+//     console.log("iife");
+// }
+// )();
+
+// arrow func
+// let x=()=>{console.log("Hello")};
+// x();
+
+// let x=(a,b)=>{console.log(a+b)};
+// x(10,5);
+// let x=_=>{console.log("hi");
+//     console.log("b");
+//     console.log("c");
+// }
+// x();
+
+
+//return
+// let x=(a,b)
+// console.log(x(10,30));
