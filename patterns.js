@@ -1,66 +1,29 @@
-// //   square pattern- for loop
-
-// let line = ""; 
-// function square(n) { 
-// 	for (let i = 1; i <= n; i++) { 
-// 		line += "* "; 
-// 	} 
-	
-// 	for (let j = 1; j <= n; j++) { 
-// 		console.log(line); 
-// 	} 
-// } 
-
-// let size = 5; 
- 
-// square(size);
-
-
-// // Square pattern- nested for loop
-
-// let patternSize = 5; 
-
-// for (let i = 1; i <= patternSize; i++) {
-//     let line = ""; 
-
-//     for (let j = 1; j <= patternSize; j++) {
-//         line += "*  "; 
+// square pattern
+// for(let i=1; i<=5;i++){
+//     for(let j=1;j<=5;j++){
+//         document.writeln("*");
 //     }
-
-//     console.log(line); 
+//     document.writeln("<br>")
 // }
 
-
-
-// triangle pattern - for loop
-
-// let n = 5;
-
-// for (let i = 1; i <= n; i++) {
-//     let str = "";
-//     for (let j = 1; j <= i; j++) {
-//         str += "* ";
+//  triangle pattern
+// for(let i=1; i<=5;i++){
+//     for(let j=1;j<=5;j++){
+//         if(i>=j){
+//             document.writeln("*");
+//         }
 //     }
-//     console.log(str);
+//     document.writeln("<br>")
 // }
 
-
-
-//  x-pattern - nested for loop
-
-let n = 7;
-for (let i = 0; i < n; i++) {
-    let row = ""; 
-
-    for (let j = 0; j < n; j++) {
-        
-        if (i === j || i + j === n - 1) {
-            row += "*"; 
-        } else {
-            row += " "; 
-        }
-    }
-
-    console.log(row); 
-}
-
+// // x- pattern
+// for(let i=1; i<=5;i++){
+//     for(let j=1;j<=5;j++){
+//         if(i==j || i+j == 6){
+//             document.writeln("*");
+//         }else{
+//             document.writeln("&nbsp;&nbsp;");
+//         }
+//     }
+//     document.writeln("<br>")
+// }
