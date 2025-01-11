@@ -102,15 +102,36 @@
 // });
 // console.log(x);
 
-var a= 10;
-let b=30;
-function x(){
-    var user = "abc";
-    let company= "Amazon";
-    const salary=123456;
-    console.log(user);
-    console.log(company);
-    console.log(salary);
-    console.log(a,b);
+// var a= 10;
+// let b=30;
+// function x(){
+//     var user = "abc";
+//     let company= "Amazon";
+//     const salary=123456;
+//     console.log(user);
+//     console.log(company);
+//     console.log(salary);
+//     console.log(a,b);
+// }
+// x();
+
+function x() {
+    let a = 10;
+    const b = 20;
+    console.log(a ,b);
+    function y() {
+        let p="Js";
+        var q = "ReactJs";
+        console.log(p , q);
+        function z(){
+            const username = "Harold";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+
+        }
+        z();
+    }
+    y();
 }
 x();
